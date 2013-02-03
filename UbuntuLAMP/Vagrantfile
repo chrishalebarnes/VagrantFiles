@@ -4,5 +4,5 @@ Vagrant::Config.run do |config|
   config.vm.box = "lucid64"
   config.vm.box_url = "http://files.vagrantup.com/precise64.box" 
   config.vm.network :bridged
-  config.vm.provision :shell, :path => ""
+  config.vm.provision :shell, :path => "https://raw.github.com/chrishalebarnes/VagrantFiles/master/UbuntuLAMP/Vagrant-LAMP.sh"
 end
